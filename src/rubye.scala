@@ -1,16 +1,17 @@
 /*
- * Copyright (c) 2009 h_sakurai, freecluster.net. All rights reserved.
+ * Copyright (c) 2014 h_sakurai. All rights reserved.
  *
- * AdaScript.scala
- * AdaScript Intepreter
- * This program is Tiny programming language Ada like expression processor.
+ * RubyE.scala
+ * RubyE Intepreter
+ * This program is Tiny programming language Ruby like Expression processor.
  *
  * HISTORY:
- *  AdaScript.scala prc,fun, append closure, quote, quasiquote, expand, macro, symbol,void
+ *  RubyE.scala prc,fun, append closure, quote, quasiquote, expand, macro, symbol,void
  * TODO:
  * match,for,string,define operator,comment,array(vector)
  * void,
  */
+
 package rubye
 import scala.util.matching.Regex
 import scala.collection.mutable.{HashMap,Stack}
